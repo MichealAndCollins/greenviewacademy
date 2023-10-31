@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login_style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="login-main">
+        <div class="hero" >
+          <img src="/greenview_logo.png"/>
+          <h1 class="form-title">GREENVIEW ACADEMY</h1>
+        </div>
+        <form class="form" onsubmit="onSubmit()">
+          <h1 class="form-title1">LOGIN PAGE</h1>
+  
+          <div class="username_section">
+            <label class="username_label" for="username">Username:</label>
+            <input
+              type="text"
+              class="username_input"
+              id="username"
+              name="username"
+              required
+            />
+          </div>
+          <div class="password_section">
+            <label class="password_label" for="password"> Password :</label>
+            <input
+              type="password"
+              class="password_input"
+              id="password"
+              name="password"
+              required
+            /><br />
+          </div>
+          <button class="login_btn" type="submit">Login</button>
+        </form>
+      </div>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

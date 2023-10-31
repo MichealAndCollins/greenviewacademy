@@ -1,0 +1,60 @@
+ul {
+  list-style: none;
+}
+#index {
+  border: 1px solid gainsboro;
+  width: 220px;
+  height: 325px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+#index img {
+  width: 200px;
+  height: 200px;
+}
+.image {
+  border-radius: 100px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.text {
+  font-size: 16px;
+  margin-left: 5px;
+}
+.header {
+    padding: 4px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .drop {
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    margin-right: 5px;
+    
+  }
+  #student a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
+.student-list {
+  width: 100%;
+  height: 100vh;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(188, 239, 188);
+
+}
+.hero img{
+    width: 100px;
+    height: 100px;
+}

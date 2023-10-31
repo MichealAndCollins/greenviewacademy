@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage_style.css" />
+  </head>
+  <body>
+    <nav class="hero">
+      <img src="/greenview_logo.png" alt="" />
+      <h1 class="name">GREENVIEW ACADEMY</h1>
+
+      <ul>
+        <a href="">
+          <li>Home</li>
+        </a>
+        <a href="">
+          <li>About Us</li>
+        </a>
+        <a href="">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+      <a href=""><button type="reset" class="login_btn">Log Out</button></a>
+    </nav>
+
+    <div class="block">
+      <div class="dashboard">
+        <div class="dashboard_section">
+          <a href="./viewStudents.html" class="dashboard_link">VIEW STUDENTS</a>
+        </div>
+        <div class="dashboard_section">
+          <a href="./studentsResults.html" class="dashboard_link">RESULTS</a>
+        </div>
+        <div id="details">
+          <p>First Name: <span id="firstname"></span></p>
+          <p>Last Name: <span id="lastname"></span></p>
+          <p>Middle Name:<span id="middlename"></span></p>
+          <p>Job Title: <span id="jobtitle"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <!--<div id="menuBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="white">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </div>-->
+    <script src="/script.js"></script>
+  </body>
+</html>
